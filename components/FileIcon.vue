@@ -4,23 +4,20 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import AsyncComputed from './asyncComputed';
 import { FileIcon, fileIcons, IconPack } from '~/assets/fileIcons';
 import file from '~/assets/icons/file.svg';
 
-@Component({
-	asyncComputed: {
-		path: {
-			async get() {
-				const file = await this.icon.file();
-				return file.default;
-			},
-			default: file,
-		},
-	},
-})
+@Component
 export default class FileIconComponent extends Vue {
 	@Prop(String) fileName!: string;
 	@Prop({ type: Array, default: () => [] }) iconPacks!: IconPack[];
+
+	@AsyncComputed({ default: file })
+	async path() {
+		const file = await this.icon.file();
+		return file.default;
+	}
 
 	private get icon(): FileIcon {
 		const icons = (fileIcons.icons as FileIcon[])

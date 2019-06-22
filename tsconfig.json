@@ -38,7 +38,8 @@
 		"types": [
 			"@types/node",
 			"@nuxt/vue-app",
-			"plugins/types.d.ts"
+			"plugins/types.d.ts",
+			"plugins/asyncComputed.d.ts"
 		]
 	}
 }
