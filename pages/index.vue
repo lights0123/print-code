@@ -1,8 +1,8 @@
 <template>
 	<main>
 		<v-style>{{ styles[style] }}</v-style>
-		<br>
 		<div class="ui text container hide-print">
+			<br>
 			<div class="ui form">
 				<div class="field">
 					<label>Code</label>
