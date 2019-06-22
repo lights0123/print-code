@@ -57,6 +57,33 @@
 					</div>
 				</div>
 			</div>
+			<br>
+			<br>
+			<div class="ui stackable grid">
+				<div class="two wide column" style="padding: 0 0.2rem !important;">
+					<field-label>Show File Icon</field-label>
+					<div class="ui checkbox">
+						<input v-model="fileIcon" type="checkbox" name="Show File Icon">
+						<label />
+					</div>
+				</div>
+				<div class="fourteen wide column" style="padding: 0 0.2rem !important;">
+					<div class="ui form">
+						<div class="field">
+							<label>File Name</label>
+							<input v-model="fileName"
+							       type="text"
+							       name="File Name"
+							       :placeholder="`file.${language}`"
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="file-name monospaced" :style="{ fontSize: `${fontSize}px` }">
+			<file-icon v-if="fileIcon" :file-name="fileName" />
+			<span>{{ fileName }}</span>
 		</div>
 		<div class="highlighted">
 			<highlighted-code :code="code"
@@ -86,7 +113,9 @@ import vSelect from 'vue-select';
 import vStyle from '../components/VStyle';
 import HighlightedCode from '../components/HighlightedCode.vue';
 import FieldLabel from '../components/FieldLabel.vue';
+import FileIcon from '../components/FileIcon.vue';
 import styles from '../components/styles';
+import test from '../assets/icons/3d.svg';
 
 @Component({
 	components: {
@@ -94,13 +123,16 @@ import styles from '../components/styles';
 		vSelect,
 		HighlightedCode,
 		FieldLabel,
+		FileIcon,
 		VueSlider,
 	},
 })
 export default class Index extends Vue {
 	private code = '';
+	private fileName = '';
 	private styles = styles;
 	private lineNumbers = true;
+	private fileIcon = true;
 	private tabSize = 4;
 	private fontSize = 14;
 	private style: string = Object.keys(styles)[0];
@@ -112,6 +144,11 @@ export default class Index extends Vue {
 
 	private get languages() {
 		return hljs.listLanguages();
+	}
+
+	mounted() {
+		console.log('test');
+		console.log(() => import('../assets/icons/file.svg'));
 	}
 }
 
@@ -154,6 +191,15 @@ $monospaced: "Fira Code", serif;
 
 	& > .label {
 		white-space: nowrap;
+	}
+}
+
+.file-name {
+	align-items: center;
+	padding-left: 0.5em;
+	display: flex;
+	span {
+		padding-left: 0.5em;
 	}
 }
 </style>
