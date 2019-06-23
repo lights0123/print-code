@@ -1,1 +1,16 @@
-<svg class="header__svg-logo header__svg-logo" width="300" height="300" preserveAspectRatio="xMinYMin meet" version="1.1" viewBox="0 0 681.57088 842.22857" xmlns="http://www.w3.org/2000/svg"><defs><style>.logo__text__fill{fill:#253858;} .header__svg-logo__icon--path--3{fill:#2684ff;} .header__svg-logo__icon--path--4{fill:url(#logo-gradient);}</style><linearGradient id="logo-gradient" x1="64.01" x2="32.99" y1="65.26" y2="89.48" gradientUnits="userSpaceOnUse"><stop stop-color="#0052cc" style="stop-color:#1565c0" offset=".18"/><stop stop-color="#2684ff" style="stop-color:#1e88e5" offset="1"/></linearGradient></defs><title>Bitbucket logo</title><g class="header__svg-logo__icon" transform="matrix(11.235 0 0 11.235 70.626 -357.72)"><g transform="matrix(.96468 0 0 .96468 1.1019 2.4485)"><path class="header__svg-logo__icon--path--3" d="m2 41.25a2 2 0 0 0 -2 2.32l8.49 51.54a2.72 2.72 0 0 0 2.66 2.27h40.73a2 2 0 0 0 2 -1.68l8.51-52.11a2 2 0 0 0 -2 -2.32zm35.75 37.25h-13l-3.52-18.38h19.67z" style="fill:#1e88e5"/><path class="header__svg-logo__icon--path--4" d="m59.67 60.12h-18.77l-3.15 18.38h-13l-15.35 18.23a2.71 2.71 0 0 0 1.75 .66h40.74a2 2 0 0 0 2 -1.68z" style="fill:url(#logo-gradient)"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16">
+    <defs>
+        <linearGradient x1="108.63338%" y1="13.818022%" x2="46.9265964%" y2="78.7761408%" id="linearGradient-1">
+            <stop stop-color="#0052CC" offset="18%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path"
+                 points="5.49462409 8.49565205 8.39462409 8.49565205 9.09462409 4.30144152 4.72351298 4.30144152"></polygon>
+        <path d="M0.450179643,3.80102673e-05 C0.318882874,-0.00169995857 0.193557222,0.0562373633 0.107821229,0.158308319 C0.0220852366,0.260379274 -0.0152849516,0.396135632 0.00573519851,0.529160817 L1.89240187,12.2838977 C1.94092411,12.5808212 2.19017219,12.7991228 2.48351298,12.801617 L11.5346241,12.801617 C11.7547987,12.8045253 11.9438559,12.6415381 11.9790685,12.4184591 L13.8657352,0.531441519 C13.8867553,0.398416334 13.8493852,0.262659976 13.7636492,0.160589021 C13.6779132,0.0585180651 13.5525875,0.000580743182 13.4212908,0.00231871202 L0.450179643,3.80102673e-05 Z M8.39462409,8.49565205 L5.5057352,8.49565205 L4.72351298,4.30144152 L9.09462409,4.30144152 L8.39462409,8.49565205 Z"
+              id="Shape" fill="#2684FF" fill-rule="nonzero"></path>
+        <path d="M13.2657352,4.30144152 L9.09462409,4.30144152 L8.39462409,8.49565205 L5.5057352,8.49565205 L2.09462409,12.6510906 C2.20274124,12.7470404 2.34058578,12.8003955 2.48351298,12.801617 L11.5368463,12.801617 C11.7570209,12.8045253 11.9460781,12.6415381 11.9812908,12.4184591 L13.2657352,4.30144152 Z"
+              id="Path" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

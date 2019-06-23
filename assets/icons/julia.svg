@@ -1,9 +1,5 @@
-<svg version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(0,-247)">
-<g transform="translate(.21075 -.010315)">
-<circle cx="13.497" cy="281.63" r="9.5549" fill="#bc342d"/>
-<circle cx="36.081" cy="281.63" r="9.5549" fill="#864e9f"/>
-<circle cx="24.722" cy="262.39" r="9.5549" fill="#328a22"/>
-</g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 -1 16 16">
+    <path id="file_type_julia.svg" class="i-color" fill="#7963E6"
+          d="M6.419,6.93a3.167,3.167,0,1,1,4.736-2.751A3.191,3.191,0,0,1,6.419,6.93Zm0.89,3.891A3.162,3.162,0,0,0,2.574,8.07a3.191,3.191,0,0,0,0,5.5A3.162,3.162,0,0,0,7.309,10.821Zm7.691,0a3.167,3.167,0,1,0-4.736,2.751A3.162,3.162,0,0,0,15,10.821Z"
+          transform="translate(0 0)"/>
 </svg>

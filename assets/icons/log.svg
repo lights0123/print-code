@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
- <path d="m13.921 16.802h-6.7232v-1.9209h6.7232m2.8814-1.9209h-9.6045v-1.9209h9.6045m0-1.9209h-9.6045v-1.9209h9.6045m1.9209-3.8418h-13.446c-1.0661 0-1.9209 0.8548-1.9209 1.9209v13.446a1.9209 1.9209 0 0 0 1.9209 1.9209h13.446a1.9209 1.9209 0 0 0 1.9209 -1.9209v-13.446c0-1.0661-0.86441-1.9209-1.9209-1.9209z" fill="#afb42b" stroke-width=".96045"/>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1" width="16px" height="16px"
+     viewBox="0 0 24 24" fill="#7A8387">
+    <path d="M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V4C4,2.89 4.89,2 6,2M15,18V16H6V18H15M18,14V12H6V14H18Z"/>
 </svg>

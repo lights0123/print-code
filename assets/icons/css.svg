@@ -1,3 +1,5 @@
-<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="m5 3l-.65 3.34h13.59l-.44 2.16h-13.58l-.66 3.33h13.59l-.76 3.81-5.48 1.81-4.75-1.81.33-1.64h-3.34l-.79 4 7.85 3 9.05-3 1.2-6.03.24-1.21 1.54-7.76h-16.94z" fill="#42a5f5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 -1 16 16">
+    <path id="file_type_css.svg" class="i-color" fill="#1E9CEF"
+          d="M3.785,2H14l-1.805,9.164L6.738,13,2,11.164,2.482,8.717H4.5L4.3,9.728l2.864,1.107,3.3-1.107L10.925,7.4h-8.2L3.12,5.355h8.206l0.258-1.313h-8.2Z"
+          transform="translate(0 0)"/>
 </svg>

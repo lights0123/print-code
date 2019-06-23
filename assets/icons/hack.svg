@@ -1,2 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg enable-background="new 0 0 253.6 253.6" version="1.1" viewBox="0 0 253.6 253.6" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(1.2301 0 0 1.2301 -29.243 -29.515)"><polygon transform="matrix(.89567 0 0 .89567 12.531 17.05)" points="63.6 159.1 63.6 217.8 121.4 159.1" fill="#607d8b"/><polygon transform="matrix(.89567 0 0 .89567 12.533 12.414)" points="123.9 32.5 63.6 91.4 63.6 152.9 123.9 92.6" fill="#607d8b"/><polygon transform="matrix(.89567 0 0 .89567 15.288 10.933)" points="128.1 94.6 128.1 152.1 186.3 94.6" fill="#eceff1"/><polygon transform="matrix(.89567 0 0 .89567 15.288 14.45)" points="190 97.6 128.1 159.2 128.1 220.7 190 159" fill="#607d8b"/><polygon transform="matrix(.89567 0 0 .89567 12.521 16.081)" points="67.6 154.3 123.9 154.4 123.9 98.3" fill="#ffa000"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="16px" height="16px" viewBox="0 0 350 512">
+    <path fill="#AB7967"
+          d="M0,327.6181335V164.1326904L165.0671997,0v161.7559662L0,327.6181335z M178.9753876,166.9897614v161.5811005l160.4861298-161.259079L178.9753876,166.9897614z M165.0671997,333.0887756V180.3822479L13.092617,333.0887756H165.0671997z M0,348.2492371v163.0111084l163.1258698-163.0111084H0z M178.9753876,347.1971436V512L349.910675,340.9975586l-0.0001831-165.5587463L178.9753876,347.1971436z"/>
+</svg>

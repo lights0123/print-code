@@ -1,1 +1,5 @@
-<svg enable-background="new 0 0 256 256" version="1.1" viewBox="0 0 256 256" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-6.1456 .2445)" fill="#f44336" fill-rule="evenodd"><rect transform="matrix(.98931 -.14586 0 1 0 0)" x="60.251" y="59.435" width="150.71" height="49.488"/><rect transform="matrix(.98931 -.14586 0 1 0 0)" x="60.237" y="122.87" width="150.71" height="49.488"/><rect transform="matrix(.98931 -.14586 0 1 0 0)" x="60.231" y="186.14" width="150.71" height="49.488"/><rect transform="rotate(17.923)" x="87.528" y="67.767" width="100.48" height="9.2044"/><rect transform="rotate(17.923)" x="126.41" y="23.362" width="100.48" height="9.2044"/><rect transform="rotate(17.923)" x="107.03" y="128.07" width="100.48" height="9.2044"/><rect transform="rotate(17.923)" x="145.89" y="83.566" width="100.48" height="9.2044"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 -1 16 16">
+    <path id="file_type_scala.svg" class="i-color" fill="#FF5370"
+          d="M13,1c-0.737.877-7.155,1.55-9.99,1.867V6.16c2.726-.249,9.265-0.736,9.951-1.867ZM12.99,5.439C12.253,6.316,5.835,6.989,3,7.306V10.6c2.726-.249,9.266-0.736,9.951-1.867ZM13,9.84c-0.737.877-7.155,1.551-9.99,1.867V15c2.726-.249,9.266-0.736,9.952-1.867Z"
+          transform="translate(0 -1)"/>
+</svg>

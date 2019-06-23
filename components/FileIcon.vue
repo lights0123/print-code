@@ -1,36 +1,25 @@
 <template>
-	<i :style="{ backgroundImage: `url(${path})` }" class="file-icon" />
+	<img :src="path" class="file-icon">
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import AsyncComputed from './asyncComputed';
-import { FileIcon, fileIcons, IconPack } from '~/assets/fileIcons';
+import icons from '~/assets/fileIcons';
 import file from '~/assets/icons/file.svg';
 
 @Component
 export default class FileIconComponent extends Vue {
 	@Prop(String) fileName!: string;
-	@Prop({ type: Array, default: () => [] }) iconPacks!: IconPack[];
 
 	@AsyncComputed({ default: file })
 	async path() {
-		const file = await this.icon.file();
+		const file = await this.icon();
 		return file.default;
 	}
 
-	private get icon(): FileIcon {
-		const icons = (fileIcons.icons as FileIcon[])
-			.filter((icon) => {
-				if (icon.enabledFor) {
-					return icon.enabledFor.some(pack => this.iconPacks.includes(pack));
-				}
-				return true;
-			});
-		let icon = icons.find(icon => !!(icon.fileNames && icon.fileNames.indexOf(this.fileName) !== -1));
-		if (icon) return icon;
-		icon = icons.find(icon => !!(icon.fileExtensions && icon.fileExtensions.indexOf(this.fileExtension) !== -1));
-		return icon || fileIcons.defaultIcon;
+	private get icon(): () => Promise<{ default: string }> {
+		return (icons.find(({ pattern }) => pattern.test(this.fileName)) || icons[icons.length - 1]).icon;
 	}
 
 	private get fileExtension(): string {

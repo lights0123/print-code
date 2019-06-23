@@ -115,7 +115,6 @@ import HighlightedCode from '../components/HighlightedCode.vue';
 import FieldLabel from '../components/FieldLabel.vue';
 import FileIcon from '../components/FileIcon.vue';
 import styles from '../components/styles';
-import test from '../assets/icons/3d.svg';
 
 @Component({
 	components: {
@@ -144,11 +143,6 @@ export default class Index extends Vue {
 
 	private get languages() {
 		return hljs.listLanguages();
-	}
-
-	mounted() {
-		console.log('test');
-		console.log(() => import('../assets/icons/file.svg'));
 	}
 }
 
