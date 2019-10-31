@@ -26,8 +26,8 @@
 		"vue-async-computed": "^3.7.0",
 		"vue-class-component": "^7.1.0",
 		"vue-property-decorator": "^7.2.0",
-		"vue-select": "latest",
-		"vue-slider-component": "latest"
+		"vue-select": "^3.2.0",
+		"vue-slider-component": "^3.0.41"
 	},
 	"devDependencies": {
 		"@babel/plugin-syntax-dynamic-import": "^7.2.0",
