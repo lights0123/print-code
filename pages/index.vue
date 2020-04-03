@@ -110,11 +110,11 @@ import 'vue-slider-component/theme/default.css';
 import hljs from 'highlight.js';
 import VueSlider from 'vue-slider-component/dist-css/vue-slider-component.umd.min.js';
 import vSelect from 'vue-select';
-import vStyle from '../components/VStyle';
-import HighlightedCode from '../components/HighlightedCode.vue';
-import FieldLabel from '../components/FieldLabel.vue';
-import FileIcon from '../components/FileIcon.vue';
-import styles from '../components/styles';
+import vStyle from '@/components/VStyle';
+import HighlightedCode from '@/components/HighlightedCode.vue';
+import FieldLabel from '@/components/FieldLabel.vue';
+import FileIcon from '@/components/FileIcon.vue';
+import styles from '@/components/styles';
 
 @Component({
 	components: {
@@ -189,6 +189,9 @@ $monospaced: "Fira Code", serif;
 }
 
 .file-name {
+	@media screen {
+		margin-top: 1em;
+	}
 	align-items: center;
 	padding-left: 0.5em;
 	display: flex;

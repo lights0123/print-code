@@ -40,27 +40,13 @@ ${line}
 	return inputHtml;
 }
 
-function lineNumbersInternal(element: HTMLElement, options: Options) {
-	// define options or set default
-	options = {
-		singleLine: false,
-		...options,
-	};
-
-	// convert options
-	const firstLineIndex = options.singleLine ? 0 : 1;
-
-	return addLineNumbersBlockFor(element.innerHTML, firstLineIndex);
+function lineNumbersInternal(element: HTMLElement) {
+	return addLineNumbersBlockFor(element.innerHTML, 0);
 }
 
-
-export interface Options {
-	singleLine?: boolean;
-}
-
-export default function lineNumbersValue(value: string, options: Options = {}) {
+export default function lineNumbersValue(value: string) {
 	const element = document.createElement('code');
 	element.innerHTML = value;
 
-	return lineNumbersInternal(element, options);
+	return lineNumbersInternal(element);
 }
