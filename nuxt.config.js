@@ -26,12 +26,13 @@ export default {
 	** Plugins to load before mounting the App
 	*/
 	plugins: [
-		'~/plugins/fomantic',
+		'~/plugins/fomantic.ts',
 	],
 	/*
 	** Nuxt.js modules
 	*/
 	modules: ['~/modules/filter-styles.ts'],
+	buildModules: ['@nuxt/typescript-build'],
 	/*
 	** Build configuration
 	*/
