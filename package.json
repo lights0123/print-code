@@ -17,7 +17,7 @@
 		"csso": "^4.0.3",
 		"firacode": "^2.0.0",
 		"fomantic-ui-css": "^2.8.4",
-		"highlight.js": "^9.18.1",
+		"highlight.js": "^10.4.1",
 		"mz": "^2.7.0",
 		"node-sass": "^4.13.1",
 		"nuxt": "^2.12.0",
